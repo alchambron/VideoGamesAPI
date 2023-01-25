@@ -1,0 +1,12 @@
+@import "config.scss";
+@import "home.scss";
+@import "details.scss";
+
+body {
+  background-color: $background-color;
+}
+
+div > div {
+  padding: 10px;
+}
+

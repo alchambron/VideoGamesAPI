@@ -1,0 +1,66 @@
+.element {
+  width: 30;
+
+  .title {
+    color: white;
+    margin-top: 10px;
+  }
+
+  img:hover {
+    opacity: 40%;
+  }
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.grid {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.main-title {
+  margin: 30px;
+  text-decoration: none;
+}
+
+.main-title:link{
+  text-decoration: none;
+}
+
+#input-search {
+  background: transparent;
+  border: solid;
+  border-radius: 20.5px;
+  border-color: white;
+  margin: 30px;
+  color: white;
+  width: 300px;
+  padding-left: 20px;
+}
+
+
+#input-search::placeholder {
+  color: white;
+  opacity: 60%;
+}
+
+
+
+#show-more {
+  width: 223px;
+  height: 51px;
+  left: 401px;
+  top: 1434px;
+  background-color: #d20a32;
+  color: white;
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  border: none;
+  margin-bottom: 10px;
+}

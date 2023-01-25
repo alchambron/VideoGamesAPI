@@ -1,0 +1,54 @@
+<div class="detail__header"> 
+  <img class="details-image "src="${GamesData.background_image}"></img>
+  <a href="${GamesData.website}"><button> Visit Website</button></a>
+</div>
+
+<div class="detail__content">
+<div class="detail__content__head">
+
+  <h3>${GamesData.name}</h3>
+
+  <h5 class="rating">${GamesData.rating}/5 - ${GamesData.ratings_count} votes</h5>
+  ${GamesData.description}
+</div>
+<div class="detail__content__infos">
+<div class="released-infos">
+  <h5>Date de sortie :</h5>
+  <p> ${releasedDate}</p>
+</div>
+  <div class="platform-infos">
+  <h5> Plateform </h5>
+  <p>${platform}</p>
+  </div>
+  <div class="dev-infos">
+  <h5> Studio de Developpement </h5>
+  <p>${devStudio}</p>
+  </div>
+  <div class="publisher-infos">
+  <h5> Editeur </h5>
+  <p>${editor}</p>
+  </div>
+  </div>
+
+  <div class="detail__content_tags">
+  
+  <div class="tags">
+  <h5> Tags </h5>
+  <p>${tags}</p>
+  </div>
+  <div class="genre">
+  <h5> Genre </h5>
+  <p>${genre}</p>
+  </div>
+  </div>
+ 
+  
+  <h3>Trailer </h3>
+  ${videoTrailer}
+</div>
+<div class="detail__store">
+${store}
+</div>
+<div class="detail__screenshots">
+${screenshots} 
+</div>
